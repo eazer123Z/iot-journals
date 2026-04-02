@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indonesian IoT Journals — Open Access Directory 2020+</title>
+  <meta name="description" content="A curated directory of 10 open-access Indonesian journals covering Internet of Things (IoT) research, published 2020 and beyond.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <span class="badge"><i class="fas fa-satellite-dish"></i> Open Access &bull; 2020+</span>
+      <h1>Indonesian <span class="accent">IoT Journals</span></h1>
+      <p>A curated directory of 10 open-access Indonesian journals and publications covering Internet of Things research — from smart agriculture to industrial IoT, all freely accessible.</p>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">10</span><span class="stat-label">Journals</span></div>
+        <div class="stat"><span class="stat-num">OA</span><span class="stat-label">Open Access</span></div>
+        <div class="stat"><span class="stat-num">2020+</span><span class="stat-label">Active</span></div>
+      </div>
+      <a href="#journals" class="cta-btn"><i class="fas fa-arrow-down"></i> Explore Journals</a>
+    </div>
+  </header>
+
+  <!-- Filter -->
+  <section class="filter-bar" id="journals">
+    <div class="container">
+      <div class="filter-row">
+        <div class="filter-group">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="sinta-2">SINTA 2</button>
+          <button class="filter-btn" data-filter="sinta-3">SINTA 3</button>
+          <button class="filter-btn" data-filter="sinta-4">SINTA 4</button>
+          <button class="filter-btn" data-filter="scopus">Scopus</button>
+        </div>
+        <div class="search-box">
+          <i class="fas fa-search"></i>
+          <input type="text" id="searchInput" placeholder="Search journals...">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journal Cards -->
+  <section class="journals-section">
+    <div class="container">
+      <div class="journals-grid" id="journalsGrid">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about-section">
+    <div class="container">
+      <div class="about-card">
+        <h2><i class="fas fa-info-circle"></i> About This Directory</h2>
+        <p>This directory was curated in <strong>April 2026</strong> to help researchers, students, and practitioners find open-access Indonesian journals that publish Internet of Things (IoT) research. All listed journals are freely accessible online and have published IoT-related content from 2020 onward.</p>
+        <p>Journals are indexed in <strong>SINTA</strong> (Science and Technology Index — Indonesia's national journal ranking system) and/or <strong>Scopus</strong>. Accreditation levels range from SINTA 2 (highest national) to SINTA 4.</p>
+        <div class="about-meta">
+          <span><i class="fas fa-calendar"></i> Curated: April 2026</span>
+          <span><i class="fas fa-globe-asia"></i> Focus: Indonesia</span>
+          <span><i class="fas fa-lock-open"></i> License: Open Access</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built with <i class="fas fa-heart" style="color: #ef4444;"></i> for Indonesian IoT research community.</p>
+      <p class="footer-note">All journal links lead to official journal pages. This is an informational directory, not affiliated with the journals.</p>
+    </div>
+  </footer>
+
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
